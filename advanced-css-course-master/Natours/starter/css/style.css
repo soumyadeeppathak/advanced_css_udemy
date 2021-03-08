@@ -33,4 +33,43 @@ body{
     background-position: top;
 
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo-img{
+    height: 35px;;
+}
+
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);    
+}
+
+.header-primary{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.heading-top{
+    display: block;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 35px;
+}
+
+.heading-bottom{
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 16px;
 }
